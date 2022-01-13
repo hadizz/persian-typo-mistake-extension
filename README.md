@@ -2,8 +2,8 @@
 
 <img src="./screenshot.png" width="420px" height="100%" alt="persian mistake typo screenshot" title="persian mistake typo screenshot"/>
 
-With this extension you can fix your text that is written in persian but on an english keyboard!
-this extension also reverts english text.
+With this extension, you can fix your text that is written in Persian but on an English keyboard.
+this extension also reverts English text.
 
 for example:
 
@@ -28,4 +28,4 @@ build for Chrome extension
 
 see google developer documentation for more details.
 
-https://developer.chrome.com/docs/extensions/mv3/a
+https://developer.chrome.com/docs/extensions/mv3
