@@ -6,6 +6,8 @@ const validInput = document.getElementById('valid');
 const revertButton = document.getElementById('revert');
 let translatorLanguage = 'fa';
 
+const copyButton = document.getElementById('copy');
+
 const enToFaDictionary = {
     'q': 'ض',
     'Q': 'ْ',
@@ -175,5 +177,20 @@ revertButton?.addEventListener('click', () => {
     } else {
         revertButton.textContent = 'به انگلیسی ترجمه کن';
         validInput.value = translator('en')(wrongInput.value);
+    }
+})
+
+copyButton?.addEventListener('click', () => {
+    const copyText = validInput.value.trim();
+    const message = document.getElementById('copyMessage')
+
+    if (!!copyText) {
+        validInput.select();
+        validInput.setSelectionRange(0, 99999); /* For mobile devices */
+
+        navigator.clipboard.writeText(copyText);
+
+        message.textContent = 'کپی شد!'
+        setTimeout(() => message.textContent = '', 2000);
     }
 })
