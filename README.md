@@ -44,14 +44,16 @@ https://developer.chrome.com/docs/extensions/mv3
     ```bash
       git clone https://github.com/hadizz/persian-typo-mistake-extension
     ```
+   
+2. You can add your desire icons or remove icons config in manifest.json file.
 
-2. Open Google Chrome
+3. Open Google Chrome.
 
-3. Open the Extension Management page by navigating to chrome://extensions.
+4. Open the Extension Management page by navigating to `chrome://extensions`
 
-4. Enable Developer Mode by clicking the toggle switch next to Developer mode.
+5. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 
-5. Click the Load unpacked button and select the extension directory.
+6. Click the Load unpacked button and select the extension directory.
 
 Ta-da 🎉! The extension has been successfully installed.
 
