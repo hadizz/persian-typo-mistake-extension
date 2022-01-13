@@ -3,7 +3,6 @@ console.log('https://github.com/hadizz')
 const wrongInput = document.getElementById('wrong');
 const validInput = document.getElementById('valid');
 
-const revertButton = document.getElementById('revert');
 let translatorLanguage = 'fa';
 
 const copyButton = document.getElementById('copy');
@@ -165,19 +164,6 @@ wrongInput?.addEventListener('input', event => {
 })
 
 validInput?.addEventListener('change', event => {
-})
-
-revertButton?.addEventListener('click', () => {
-    if (translatorLanguage === 'fa') translatorLanguage = 'en';
-    else if (translatorLanguage === 'en') translatorLanguage = 'fa';
-
-    if (translatorLanguage === 'fa') {
-        revertButton.textContent = 'به فارسی ترجمه کن';
-        validInput.value = translator('fa')(wrongInput.value);
-    } else {
-        revertButton.textContent = 'به انگلیسی ترجمه کن';
-        validInput.value = translator('en')(wrongInput.value);
-    }
 })
 
 copyButton?.addEventListener('click', () => {
