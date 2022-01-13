@@ -1,0 +1,9 @@
+{
+  "name": "Persian Typo Mistake",
+  "description": "Fix your mistake when you forget to change your keyboard language!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
