@@ -87,17 +87,9 @@ const translator =
             .map(s => {
                 if (s === ' ') return ' ';
                 if (lang === 'fa') {
-                    return enToFaDictionary.hasOwnProperty(s)
-                        ? enToFaDictionary[s]
-                        : faToEnDictionary.hasOwnProperty(s)
-                        ? faToEnDictionary[s]
-                        : s;
+                    return faToEnDictionary[s] || enToFaDictionary[s] || s;
                 }
-                return faToEnDictionary.hasOwnProperty(s)
-                    ? faToEnDictionary[s]
-                    : enToFaDictionary.hasOwnProperty(s)
-                    ? enToFaDictionary[s]
-                    : s;
+                return faToEnDictionary[s] || enToFaDictionary[s] || s;
             })
             .join('');
 
