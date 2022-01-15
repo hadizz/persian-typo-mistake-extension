@@ -64,3 +64,7 @@ Ta-da 🎉! The extension has been successfully installed.
 ## Contributing
 
 Contributions are welcome! ❤️
+
+## Similar Projects
+
+https://github.com/WebPajooh/eshteb
