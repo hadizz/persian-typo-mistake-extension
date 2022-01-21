@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-<img src="./screenshot.png" width="420px" height="100%" alt="persian mistake typo screenshot" title="persian mistake typo screenshot"/>
+![Demo](./demo.gif)
 
 ## Introduction
 
