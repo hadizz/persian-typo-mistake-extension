@@ -1,11 +1,11 @@
 console.log('https://github.com/hadizz');
 
-const wrongInput = document.getElementById('wrong');
-const validInput = document.getElementById('valid');
+const wrongInput = document.querySelector("#wrong");
+const validInput = document.querySelector("#valid");
+const copyButton = document.querySelector("#copy");
+const msg = document.querySelector(".msg");
 
 let translatorLanguage = 'fa';
-
-const copyButton = document.getElementById('copy');
 
 const enToFaDictionary = {
     q: 'ض',
@@ -101,6 +101,7 @@ wrongInput?.addEventListener('input', event => {
 validInput?.addEventListener('change', event => {});
 
 copyButton?.addEventListener('click', () => {
+    msg.classList.toggle("none");
     const copyText = validInput.value.trim();
     const message = document.getElementById('copyMessage');
 
@@ -111,6 +112,9 @@ copyButton?.addEventListener('click', () => {
         navigator.clipboard.writeText(copyText);
 
         message.textContent = 'کپی شد!';
-        setTimeout(() => (message.textContent = ''), 2000);
+        setTimeout(() => {
+            message.textContent = '';
+            msg.classList.toggle("none");
+        }, 2500);
     }
 });

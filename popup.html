@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html dir="rtl">
+  <head>
     <meta charset="UTF-8">
     <title>Persian Typo Mistake🇮🇷</title>
-    <script src="popup.js" defer></script>
-</head>
-<body>
-<div style="width: 420px;">
-    Persian Typo Mistake 🇮🇷 (or English!)
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <div class="content"> 
+      <h2 class="title">مشکل تایپ متن فارسی</h2>
 
-    <br>
-    <textarea style="width: 100%" id="wrong" rows="6"></textarea>
+      <p>متن اشتباه</p>
+      <textarea id="wrong" rows="6" placeholder="متنی که به اشتباه تایپ کردید را در اینجا کپی کنید."></textarea>
 
-    <br>
-    <textarea style="width: 100%" id="valid" rows="6"></textarea>
+      <p>متن اصلاح شده</p>
+      <textarea id="valid" rows="6"></textarea>
 
-    <button id="copy">کپی کن</button><span id="copyMessage"></span>
-</div>
-</body>
+      <button id="copy">کپی متن</button>
+      <div class="msg none">
+        <span id="copyMessage"></span>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
+  </body>
 </html>

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/Vazir-Medium.woff");
+}
+
+@font-face {
+  font-family: vazir-black;
+  src: url("../fonts/Vazir-Black.woff");
+}
+
+@font-face {
+  font-family: vazir-light;
+  src: url("../fonts/Vazir-Light.woff");
+}
+
+body {
+  width: 300px;
+  margin: 0;
+  background-color: whitesmoke;
+  filter: blur(1px);
+  transition: filter 0.3s;
+}
+
+body:hover {
+  filter: blur(0px);
+}
+
+* {
+  font-family: vazir;
+}
+
+textarea {
+  outline: none;
+  border-radius: 10px;
+  border: gray dotted 2px;
+  padding: 5px 10px;
+  width: 90%;
+  margin-top: -5px;
+}
+
+#wrong {
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+#wrong:hover, #wrong:focus {
+  border: rgb(54, 54, 54) dotted 2px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+#copy {
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  font-family: vazir-black;
+  transition: 0.3s;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#copy:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyMessage {
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 25px;
+  background-color: lightseagreen;
+  color: white;
+  font-family: vazir-black;
+  margin-top: 7px;
+}
+
+.none {
+  display: none;
+}
