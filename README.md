@@ -1,15 +1,13 @@
-<h1 align="center">Persian Typo Mistake 🇮🇷</h1>
+# Persian Typo Mistake 🇮🇷
 
-<p align="center">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/hadizz/persian-typo-mistake-extension?style=for-the-badge">
-    <img alt="GitHub" src="https://img.shields.io/github/license/hadizz/persian-typo-mistake-extension?style=for-the-badge">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hadizz/persian-typo-mistake-extension?style=for-the-badge">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hadizz/persian-typo-mistake-extension?style=for-the-badge">
+<p>
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/hadizz/persian-typo-mistake-extension?style=flat">
+   <img alt="GitHub" src="https://img.shields.io/github/license/hadizz/persian-typo-mistake-extension?style=flat">
+   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hadizz/persian-typo-mistake-extension?style=flat">
+   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hadizz/persian-typo-mistake-extension?style=flat">
 </p>
 
-<p align="center"> 
-    <img alt="Demo" src="./demo.gif">
-</p>
+<img alt="Demo" src="./demo.gif">
 
 ## Introduction
 
