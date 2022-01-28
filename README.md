@@ -7,7 +7,7 @@
    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hadizz/persian-typo-mistake-extension?style=flat">
 </p>
 
-<img alt="Demo" src="./demo.gif">
+<img alt="Demo" src="assets/images/demo.gif">
 
 ## Introduction
 

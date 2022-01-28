@@ -50,6 +50,20 @@ textarea:focus {
   padding: 15px;
 }
 
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name img {
+  margin-right: 4px;
+}
+
 .title {
   text-align: center;
   margin: -4px 0;
