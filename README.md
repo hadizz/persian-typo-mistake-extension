@@ -1,8 +1,15 @@
-# Persian Typo Mistake 🇮🇷
+<h1 align="center">Persian Typo Mistake 🇮🇷</h1>
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+<p align="center">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/hadizz/persian-typo-mistake-extension?style=for-the-badge">
+    <img alt="GitHub" src="https://img.shields.io/github/license/hadizz/persian-typo-mistake-extension?style=for-the-badge">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hadizz/persian-typo-mistake-extension?style=for-the-badge">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hadizz/persian-typo-mistake-extension?style=for-the-badge">
+</p>
 
-<img src="./screenshot.png" width="420px" height="100%" alt="persian mistake typo screenshot" title="persian mistake typo screenshot"/>
+<p align="center"> 
+    <img alt="Demo" src="./demo.gif">
+</p>
 
 ## Introduction
 
