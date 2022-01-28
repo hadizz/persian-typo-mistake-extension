@@ -1,9 +1,9 @@
-console.log('https://github.com/hadizz');
+console.log('%c https://github.com/hadizz', 'font-size: 20px;');
 
-const wrongInput = document.querySelector("#wrong");
-const validInput = document.querySelector("#valid");
-const copyButton = document.querySelector("#copy");
-const msg = document.querySelector(".msg");
+const wrongInput = document.querySelector('#wrong');
+const validInput = document.querySelector('#valid');
+const copyButton = document.querySelector('#copy');
+const msg = document.querySelector('.msg');
 
 let translatorLanguage = 'fa';
 
@@ -101,11 +101,11 @@ wrongInput?.addEventListener('input', event => {
 validInput?.addEventListener('change', event => {});
 
 copyButton?.addEventListener('click', () => {
-    msg.classList.toggle("none");
     const copyText = validInput.value.trim();
     const message = document.getElementById('copyMessage');
 
     if (!!copyText) {
+        msg.classList.toggle('none');
         validInput.select();
         validInput.setSelectionRange(0, 99999); /* For mobile devices */
 
@@ -114,7 +114,7 @@ copyButton?.addEventListener('click', () => {
         message.textContent = 'کپی شد!';
         setTimeout(() => {
             message.textContent = '';
-            msg.classList.toggle("none");
+            msg.classList.toggle('none');
         }, 2500);
     }
 });

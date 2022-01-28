@@ -17,16 +17,11 @@ body {
   width: 300px;
   margin: 0;
   background-color: whitesmoke;
-  filter: blur(1px);
   transition: filter 0.3s;
 }
 
-body:hover {
-  filter: blur(0px);
-}
-
 * {
-  font-family: vazir;
+  font-family: vazir, sans-serif;
 }
 
 textarea {
@@ -36,6 +31,10 @@ textarea {
   padding: 5px 10px;
   width: 90%;
   margin-top: -5px;
+}
+
+textarea:focus {
+  border-color: #00b700;
 }
 
 #wrong {
@@ -53,6 +52,7 @@ textarea {
 
 .title {
   text-align: center;
+  margin: -4px 0;
 }
 
 #copy {
@@ -91,4 +91,9 @@ textarea {
 
 .none {
   display: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 8px;
 }
