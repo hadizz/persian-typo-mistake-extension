@@ -1,0 +1,8 @@
+{
+  "name": "persian-typo-mistake-extension",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/dictionary.test.js"
+  }
+}
